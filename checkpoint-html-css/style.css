@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
+.body-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+aside{
+    height: 100vh;  
+    background-color: #83d1e9;
+    display: flex; 
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 10px;
+    align-items: center;   
+}
+aside .rectangle{
+    background-color: #344674;
+    width: 200px;
+    height: 50px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+header{
+    width:100%;
+    height:60px;
+    background-color: #8796ca;
+    padding:10px;
+}
+
+.DH{
+    width: 50px;
+    height: 50px;
+    background-color: #a1cacf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 400px;
+    height: 300px;
+    background-color: #b16767;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.dot-parrent{
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    flex: 1;
+}
+
+.dot{
+    width: 50px;
+    height: 50px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+}
